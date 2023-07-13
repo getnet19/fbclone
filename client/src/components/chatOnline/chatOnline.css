@@ -1,0 +1,27 @@
+
+.chatOnlineFriend{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.chatOnlineImg{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.chatOnlineImgContainer{
+    position: relative;
+    margin-right: 10px;
+}
+.onlineBage{
+    width: 10px;
+    height: 10px;
+    background-color: teal;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right:2px;
+}
